@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b1{
+            border-radius:50px;
+            width:100px;
+            height:100px;
+            background-color: red;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes demo{
+            0%{
+                background-color: green;
+                transform:translate(0vw,0vh);
+        }
+        10%{
+            background-color: goldenrod;
+            transform:translate(20vw,89vh);
+        }
+        20%{
+                background-color: red;  
+                transform: translate(40vw,0vh);
+        }
+        30%{
+            background-color: blue;
+            transform: translate(60vw,89vh);
+        }
+        40%
+        {
+            background-color: palevioletred;
+            transform: translate(80vw,0vh);
+        }
+        50%{
+                background-color: blueviolet;  
+                transform: translate(100vw,89vh);
+        }
+        60%
+        {
+            background-color: greenyellow;
+            transform: translate(80vw,0vh);
+        }
+        70%{
+                background-color: seagreen;  
+                transform: translate(60vw,89vh);
+        }
+        80%
+        {
+            background-color: rgb(231, 14, 86);
+            transform: translate(40vw,0vh);
+        }
+        90%
+        {
+            background-color: rgb(102, 221, 23);
+            transform: translate(20vw,89vh);
+        }
+        100%
+        {
+            background-color: rgb(40, 26, 30);
+            transform: translate(0vw,0vh);
+        }
+        }
+        </style>
+</head>
+<body>
+    <div>
+    <div class="b1"> </div>
+    </div>
+</body>
+</html>
